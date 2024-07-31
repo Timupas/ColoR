@@ -1,0 +1,118 @@
+:root {
+    --header-bg-color: #012D63;
+    --footer-bg-color: #021635;
+    --text-color: #FFF;
+    --text-hover-color: #C7C7C7;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: var(--header-bg-color);
+}
+
+.header-logo {
+    width: 100px;
+    height: 60px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-link {
+    color: var(--text-hover-color);
+font-family: Roboto;
+font-size: 0.85;
+font-weight: 400;
+}
+
+.nav-list {
+    display: flex;
+    gap: 29px;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--text-color);
+}
+
+.hero {
+    background: url(../images/bghero.png) lightgray 50% / cover no-repeat;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+.hero-title {
+    color: var(--text-color);
+font-family: "PT Serif";
+font-size: 48px;
+font-weight: 400;
+line-height: 0.75;
+margin-bottom: 40px;
+}
+
+.hero-title1 {
+    color: var(--text-color);
+font-family: "Playfair Display";
+font-size: 144px;
+font-weight: 400;
+line-height: 0.75;
+margin-bottom: 60px;
+}
+
+.hero-title2 {
+    color: var(--text-color);
+font-family: "Playfair Display";
+font-size: 72px;
+font-weight: 400;
+line-height: 0.75;
+margin-bottom: 12px;
+}
+
+.hero-desk {
+    color: var(--text-color);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 0.85;
+width: 508px;
+height: 84px;
+}
+
+.hero-btn {
+    border-radius: 10px;
+    background: #8E32C6;
+    text-align: center;
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0.85;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    padding: 11px 32px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.footer {
+    background-color: var(--footer-bg-color);
+}
